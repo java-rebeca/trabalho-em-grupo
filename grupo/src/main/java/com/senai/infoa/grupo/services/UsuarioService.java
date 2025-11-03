@@ -40,7 +40,7 @@ public class UsuarioService {
     }
 
     public Usuario atualizar(Usuario usuario, Integer id) {
-        if (u != null) {
+        if (usuario != null) {
             usuario.setId(id); 
             return usuarioRepository.save(usuario); 
         }
