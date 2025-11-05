@@ -12,8 +12,8 @@ public class UsuarioService {
     @Autowired 
     private UsuarioRepository usuarioRepository;
 
-    public String login(String cpf, String senha){
-        Usuario usuario = usuarioRepository.findByCpf(cpf);
+    public String login(String email, String senha){
+        Usuario usuario = usuarioRepository.findByEmail(email);
             if(usuario != null && senha.equals(usuario.getSenha())){
             return "Login efetuado com sucesso!";
             }

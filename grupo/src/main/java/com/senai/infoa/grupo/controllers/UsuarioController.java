@@ -18,8 +18,8 @@ public class UsuarioController {
     private UsuarioService usuarioService;
 
     @PostMapping("/login")
-    public String login(@RequestParam String cpf, @RequestParam String senha) {
-        return usuarioService.login(cpf,senha);
+    public String login(@RequestParam String email, @RequestParam String senha) {
+        return usuarioService.login(email,senha);
     }
 
     @PostMapping("/salvar")

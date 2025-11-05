@@ -9,7 +9,7 @@ import com.senai.infoa.grupo.models.Usuario;
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Integer>{
     
-@Query(value="select * from usuario where cpf = :cpf", nativeQuery=true)
-public Usuario findByCpf(String cpf);
+@Query(value="select * from usuario where email = :email", nativeQuery=true)
+public Usuario findByEmail(String email);
 
 }
