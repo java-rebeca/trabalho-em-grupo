@@ -10,6 +10,9 @@ https://trabalho-em-grupo-frqe.onrender.com/aula/swagger-ui/index.html
 
 https://trabalho-em-grupo-frqe.onrender.com/aula/swagger-ui/index.html#/usuario-controller/login
 
+https://trabalho-em-grupo-frqe.onrender.com/usuario/salvar?confSenha=123456
+
+
 ### Hostname: dpg-d44anhc9c44c73c9g5h0-a
 ### Port: 5432
 ### Database: postgres_hqkl
