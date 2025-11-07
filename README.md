@@ -6,8 +6,7 @@ Maria Clara Fonseca,
 Maria Eduarda Tamancoldi,
 Rebeca Mendes.
 
-https://trabalho-em-grupo-frqe.onrender.com
-
+https://trabalho-em-grupo-frqe.onrender.com/aula/swagger-ui/index.html
 
 ### Hostname: dpg-d44anhc9c44c73c9g5h0-a
 ### Port: 5432
